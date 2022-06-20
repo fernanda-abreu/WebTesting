@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0 (Python 3.9.4 on win32)" generated="20220620 15:35:02.460" rpa="false" schemaversion="3">
+<suite id="s1" name="Listas com FOR" source="C:\CursoUdemy\RobotFramework\WebTesting\Listas com FOR.robot">
+<test id="s1-t1" name="Caso de teste de exemplo 01" line="28">
+<kw name="Consulta meses">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.529" endtime="20220620 15:35:02.530"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[0]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.530" endtime="20220620 15:35:02.532"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[1]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.532" endtime="20220620 15:35:02.534"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[2]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.534" endtime="20220620 15:35:02.537"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[3]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.538" endtime="20220620 15:35:02.539"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[4]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.539" endtime="20220620 15:35:02.541"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[5]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.541" endtime="20220620 15:35:02.543"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[6]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.543" endtime="20220620 15:35:02.544"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[7]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.544" endtime="20220620 15:35:02.547"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[8]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.547" endtime="20220620 15:35:02.549"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[9]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.549" endtime="20220620 15:35:02.554"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[10]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.554" endtime="20220620 15:35:02.556"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[11]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.556" endtime="20220620 15:35:02.558"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.528" endtime="20220620 15:35:02.558"/>
+</kw>
+<kw name="Consultar dicionário">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.562" endtime="20220620 15:35:02.564"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em JANEIRO há ${DIAS_POR_MES_2022.janeiro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.564" endtime="20220620 15:35:02.565"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em FEVEREIRO há ${DIAS_POR_MES_2022.fevereiro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.565" endtime="20220620 15:35:02.567"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em MARÇO há ${DIAS_POR_MES_2022.março} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.567" endtime="20220620 15:35:02.571"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em ABRIL há ${DIAS_POR_MES_2022.abril} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.571" endtime="20220620 15:35:02.574"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em MAIO há ${DIAS_POR_MES_2022.maio} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.574" endtime="20220620 15:35:02.575"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em JUNHO há ${DIAS_POR_MES_2022.junho} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.576" endtime="20220620 15:35:02.578"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em JULHO há ${DIAS_POR_MES_2022.julho} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.579" endtime="20220620 15:35:02.580"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em AGOSTO há ${DIAS_POR_MES_2022.agosto} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.580" endtime="20220620 15:35:02.581"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em SETEMBRO há ${DIAS_POR_MES_2022.setembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.581" endtime="20220620 15:35:02.583"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em OUTUBRO há ${DIAS_POR_MES_2022.outubro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.583" endtime="20220620 15:35:02.586"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em NOVEMBRO há ${DIAS_POR_MES_2022.novembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.586" endtime="20220620 15:35:02.589"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Em DEZEMBRO há ${DIAS_POR_MES_2022.dezembro} dias!</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.589" endtime="20220620 15:35:02.591"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.559" endtime="20220620 15:35:02.591"/>
+</kw>
+<kw name="Consulta dicionário 2">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.595" endtime="20220620 15:35:02.596"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[0]} = ${DIAS_DO_MES[0]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.596" endtime="20220620 15:35:02.597"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[1]} = ${DIAS_DO_MES[1]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.598" endtime="20220620 15:35:02.601"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${MESES[2]} = ${DIAS_DO_MES[2]}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.601" endtime="20220620 15:35:02.608"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.594" endtime="20220620 15:35:02.608"/>
+</kw>
+<kw name="Consulta dicionário 3">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.609" endtime="20220620 15:35:02.610"/>
+</kw>
+<for flavor="IN">
+<var>${MESES_E_DIAS}</var>
+<value>@{MESES_E_DIAS_1}</value>
+<iter>
+<var name="${MESES_E_DIAS}">JAN=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.610" endtime="20220620 15:35:02.611"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.611" endtime="20220620 15:35:02.612"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.610" endtime="20220620 15:35:02.612"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">FEV=28</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.612" endtime="20220620 15:35:02.614"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.614" endtime="20220620 15:35:02.614"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.612" endtime="20220620 15:35:02.614"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">MAR=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.614" endtime="20220620 15:35:02.615"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.615" endtime="20220620 15:35:02.615"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.614" endtime="20220620 15:35:02.615"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">ABR=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.616" endtime="20220620 15:35:02.616"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.616" endtime="20220620 15:35:02.616"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.616" endtime="20220620 15:35:02.616"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">MAI=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.617" endtime="20220620 15:35:02.617"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.617" endtime="20220620 15:35:02.618"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.617" endtime="20220620 15:35:02.618"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">JUN=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.620" endtime="20220620 15:35:02.621"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.621" endtime="20220620 15:35:02.621"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.620" endtime="20220620 15:35:02.622"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">JUL=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.622" endtime="20220620 15:35:02.623"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.623" endtime="20220620 15:35:02.623"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.622" endtime="20220620 15:35:02.623"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">AGO=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.623" endtime="20220620 15:35:02.624"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.624" endtime="20220620 15:35:02.625"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.623" endtime="20220620 15:35:02.625"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">SET=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.626" endtime="20220620 15:35:02.627"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.627" endtime="20220620 15:35:02.627"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.626" endtime="20220620 15:35:02.627"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">OUT=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.628" endtime="20220620 15:35:02.628"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.628" endtime="20220620 15:35:02.629"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.628" endtime="20220620 15:35:02.629"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">NOV=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.629" endtime="20220620 15:35:02.629"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.630" endtime="20220620 15:35:02.630"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.629" endtime="20220620 15:35:02.630"/>
+</iter>
+<iter>
+<var name="${MESES_E_DIAS}">DEZ=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias: ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.630" endtime="20220620 15:35:02.632"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.633" endtime="20220620 15:35:02.633"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.630" endtime="20220620 15:35:02.633"/>
+</iter>
+<status status="PASS" starttime="20220620 15:35:02.610" endtime="20220620 15:35:02.633"/>
+</for>
+<status status="PASS" starttime="20220620 15:35:02.609" endtime="20220620 15:35:02.633"/>
+</kw>
+<kw name="Consulta dicionário 4">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.634" endtime="20220620 15:35:02.634"/>
+</kw>
+<for flavor="IN ENUMERATE">
+<var>${INDICE}</var>
+<var>${MESES_E_DIAS}</var>
+<value>@{MESES_E_DIAS_1}</value>
+<iter>
+<var name="${INDICE}">0</var>
+<var name="${MESES_E_DIAS}">JAN=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.635" endtime="20220620 15:35:02.635"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.636" endtime="20220620 15:35:02.636"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.635" endtime="20220620 15:35:02.636"/>
+</iter>
+<iter>
+<var name="${INDICE}">1</var>
+<var name="${MESES_E_DIAS}">FEV=28</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.636" endtime="20220620 15:35:02.637"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.637" endtime="20220620 15:35:02.638"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.636" endtime="20220620 15:35:02.638"/>
+</iter>
+<iter>
+<var name="${INDICE}">2</var>
+<var name="${MESES_E_DIAS}">MAR=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.638" endtime="20220620 15:35:02.639"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.639" endtime="20220620 15:35:02.640"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.638" endtime="20220620 15:35:02.640"/>
+</iter>
+<iter>
+<var name="${INDICE}">3</var>
+<var name="${MESES_E_DIAS}">ABR=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.640" endtime="20220620 15:35:02.641"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.641" endtime="20220620 15:35:02.641"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.640" endtime="20220620 15:35:02.641"/>
+</iter>
+<iter>
+<var name="${INDICE}">4</var>
+<var name="${MESES_E_DIAS}">MAI=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.641" endtime="20220620 15:35:02.642"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.643" endtime="20220620 15:35:02.643"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.641" endtime="20220620 15:35:02.643"/>
+</iter>
+<iter>
+<var name="${INDICE}">5</var>
+<var name="${MESES_E_DIAS}">JUN=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.643" endtime="20220620 15:35:02.644"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.644" endtime="20220620 15:35:02.645"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.643" endtime="20220620 15:35:02.645"/>
+</iter>
+<iter>
+<var name="${INDICE}">6</var>
+<var name="${MESES_E_DIAS}">JUL=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.646" endtime="20220620 15:35:02.649"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.649" endtime="20220620 15:35:02.649"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.646" endtime="20220620 15:35:02.649"/>
+</iter>
+<iter>
+<var name="${INDICE}">7</var>
+<var name="${MESES_E_DIAS}">AGO=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.649" endtime="20220620 15:35:02.650"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.650" endtime="20220620 15:35:02.650"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.649" endtime="20220620 15:35:02.650"/>
+</iter>
+<iter>
+<var name="${INDICE}">8</var>
+<var name="${MESES_E_DIAS}">SET=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.651" endtime="20220620 15:35:02.652"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.652" endtime="20220620 15:35:02.652"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.651" endtime="20220620 15:35:02.652"/>
+</iter>
+<iter>
+<var name="${INDICE}">9</var>
+<var name="${MESES_E_DIAS}">OUT=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.656" endtime="20220620 15:35:02.657"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.657" endtime="20220620 15:35:02.657"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.656" endtime="20220620 15:35:02.657"/>
+</iter>
+<iter>
+<var name="${INDICE}">10</var>
+<var name="${MESES_E_DIAS}">NOV=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.658" endtime="20220620 15:35:02.658"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.659" endtime="20220620 15:35:02.659"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.658" endtime="20220620 15:35:02.659"/>
+</iter>
+<iter>
+<var name="${INDICE}">11</var>
+<var name="${MESES_E_DIAS}">DEZ=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Indice do Mês e seus dias: ${INDICE} --&gt; ${MESES_E_DIAS}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.660" endtime="20220620 15:35:02.661"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.661" endtime="20220620 15:35:02.661"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.659" endtime="20220620 15:35:02.662"/>
+</iter>
+<status status="PASS" starttime="20220620 15:35:02.634" endtime="20220620 15:35:02.662"/>
+</for>
+<status status="PASS" starttime="20220620 15:35:02.633" endtime="20220620 15:35:02.662"/>
+</kw>
+<kw name="Consulta dicionário 5">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${\n}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.663" endtime="20220620 15:35:02.663"/>
+</kw>
+<for flavor="IN ENUMERATE">
+<var>${INDICE}</var>
+<var>${MESES_E_DIAS}</var>
+<value>@{MESES_E_DIAS_1}</value>
+<iter>
+<var name="${INDICE}">0</var>
+<var name="${MESES_E_DIAS}">JAN=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.664" endtime="20220620 15:35:02.665"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.668" endtime="20220620 15:35:02.669"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.664" endtime="20220620 15:35:02.669"/>
+</iter>
+<iter>
+<var name="${INDICE}">1</var>
+<var name="${MESES_E_DIAS}">FEV=28</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.669" endtime="20220620 15:35:02.670"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.670" endtime="20220620 15:35:02.670"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.669" endtime="20220620 15:35:02.671"/>
+</iter>
+<iter>
+<var name="${INDICE}">2</var>
+<var name="${MESES_E_DIAS}">MAR=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.671" endtime="20220620 15:35:02.672"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.672" endtime="20220620 15:35:02.672"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.671" endtime="20220620 15:35:02.672"/>
+</iter>
+<iter>
+<var name="${INDICE}">3</var>
+<var name="${MESES_E_DIAS}">ABR=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.672" endtime="20220620 15:35:02.673"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.673" endtime="20220620 15:35:02.673"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.672" endtime="20220620 15:35:02.673"/>
+</iter>
+<iter>
+<var name="${INDICE}">4</var>
+<var name="${MESES_E_DIAS}">MAI=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.673" endtime="20220620 15:35:02.674"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.674" endtime="20220620 15:35:02.675"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.673" endtime="20220620 15:35:02.675"/>
+</iter>
+<iter>
+<var name="${INDICE}">5</var>
+<var name="${MESES_E_DIAS}">JUN=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.675" endtime="20220620 15:35:02.676"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.676" endtime="20220620 15:35:02.677"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.675" endtime="20220620 15:35:02.677"/>
+</iter>
+<iter>
+<var name="${INDICE}">6</var>
+<var name="${MESES_E_DIAS}">JUL=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.677" endtime="20220620 15:35:02.679"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.679" endtime="20220620 15:35:02.679"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.677" endtime="20220620 15:35:02.679"/>
+</iter>
+<iter>
+<var name="${INDICE}">7</var>
+<var name="${MESES_E_DIAS}">AGO=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.682" endtime="20220620 15:35:02.683"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.683" endtime="20220620 15:35:02.683"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.680" endtime="20220620 15:35:02.683"/>
+</iter>
+<iter>
+<var name="${INDICE}">8</var>
+<var name="${MESES_E_DIAS}">SET=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.684" endtime="20220620 15:35:02.684"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.685" endtime="20220620 15:35:02.685"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.683" endtime="20220620 15:35:02.685"/>
+</iter>
+<iter>
+<var name="${INDICE}">9</var>
+<var name="${MESES_E_DIAS}">OUT=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.685" endtime="20220620 15:35:02.686"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.686" endtime="20220620 15:35:02.686"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.685" endtime="20220620 15:35:02.686"/>
+</iter>
+<iter>
+<var name="${INDICE}">10</var>
+<var name="${MESES_E_DIAS}">NOV=30</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.686" endtime="20220620 15:35:02.689"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.690" endtime="20220620 15:35:02.690"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.686" endtime="20220620 15:35:02.690"/>
+</iter>
+<iter>
+<var name="${INDICE}">11</var>
+<var name="${MESES_E_DIAS}">DEZ=31</var>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Mês e seus dias e seu indice: ${MESES_E_DIAS} --&gt; ${INDICE}.</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20220620 15:35:02.690" endtime="20220620 15:35:02.691"/>
+</kw>
+<kw name="No Operation" library="BuiltIn">
+<doc>Does absolutely nothing.</doc>
+<status status="PASS" starttime="20220620 15:35:02.691" endtime="20220620 15:35:02.691"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.690" endtime="20220620 15:35:02.691"/>
+</iter>
+<status status="PASS" starttime="20220620 15:35:02.664" endtime="20220620 15:35:02.691"/>
+</for>
+<status status="PASS" starttime="20220620 15:35:02.662" endtime="20220620 15:35:02.692"/>
+</kw>
+<status status="PASS" starttime="20220620 15:35:02.528" endtime="20220620 15:35:02.693"/>
+</test>
+<doc>Variável do tipo LISTA na seção de variáveis globais que contenha todos os meses do ano</doc>
+<status status="PASS" starttime="20220620 15:35:02.463" endtime="20220620 15:35:02.695"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Listas com FOR">Listas com FOR</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220620 15:35:02.449" level="ERROR">Error in file 'C:\CursoUdemy\RobotFramework\WebTesting\Listas com FOR.robot' on line 3: Non-existing setting 'Li'.</msg>
+</errors>
+</robot>
